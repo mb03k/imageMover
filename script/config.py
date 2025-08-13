@@ -11,4 +11,3 @@ def loadJSON(selected_language):
 
 
 MESSAGES = loadJSON("de") # SPRACHE NOCH ÄNDERN
-
