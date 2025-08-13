@@ -1,0 +1,11 @@
+{
+    "de": {
+        "welcome_message": "Hallo! Nǐ hǎo! Namastē! Γεια σας! God dag! Xin chào! Hello! Asalaam alaikum!",
+        "welcome_image_input": "Pfad zu den Bildern:",
+        "welcome_image_output": "Pfad zum Speicherort",
+        "error_invalid_path": "Ungültiger Pfad!"
+    },
+    "en": {
+
+    }
+}
