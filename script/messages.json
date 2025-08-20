@@ -3,7 +3,10 @@
         "welcome_message": "Hallo! Nǐ hǎo! Namastē! Γεια σας! God dag! Xin chào! Hello! Asalaam alaikum!",
         "welcome_image_input": "Pfad zu den Bildern:",
         "welcome_image_output": "Pfad zum Speicherort",
-        "error_invalid_path": "Ungültiger Pfad!"
+        "welcome_image_names_file": "Pfad zur Textdatei mit Bildernamen",
+        "error_invalid_path": "Ungültiger Pfad!",
+        "name_convention_prefix": "Präfix der Datei (was statisch am Anfang steht ohne sich zu ändern)",
+        "name_convention_postfix": "Postfix der Datei (was statisch am Ende steht ohne sich zu ändern)"
     },
     "en": {
 
