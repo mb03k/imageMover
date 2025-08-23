@@ -14,12 +14,18 @@ def startCopying(paths, conventions):
             infix = line.strip()
             path = buildFinalPath(paths, infix, conventions)
 
+            print("aktueller Pfad: ", path)
             if not pathIsValidTextfile(path):
-                return None
+                continue
             
-            print (infix)
+            print ("infix (LETZTE ZEILE!!!): ",infix)
+            # hier kopieren
+
+            print("Endpfad: ",paths[1])
+            shutil.copy(path, paths[1])
 
 def buildFinalPath(paths, infix, conventions):
     # PATH                     /   PREFIX  INFIX  POSTFIX
     # /Users/Matthes/Desktop   /   _MB06   231    .ARW           ### BEISPIEL ###
-    print (paths[0] + "/" + conventions[0] + infix + conventions[1])
+    print ("final path: ",paths[0] + "/" + conventions[0] + infix + conventions[1])
+    return (paths[0] + "/" + conventions[0] + infix + conventions[1])
