@@ -1,11 +1,32 @@
 # imageMover
 
-Ein simples Projekt um angegebene Bilder in einen anderen Ordner via Bash zu verschieben
+A simple project to get familiar with python in order to prepare for the second part of the university module SWP II.
 
-## warum?
+## Requirements
 
-Ich mache aktuell sehr gern Bilder. Allerdings werden das teils sehr viele, weshalb es sehr anstrengend ist, alle Bilder einzeln anzuklicken und in einen weiteren Ordner zu kopieren
+**Git** to download the repository
+**Python 3.x** to execute main.py
 
-### Credits
+## Run Locally
 
-© Matthes Böttcher, 2025
+### select folder
+
+example:
+
+```bash
+cd ~/Desktop/
+touch imageMover
+cd imageMover/
+```
+### cloning repository
+
+```bash
+git clone git@github.com:mb03k/imageMover.git
+cd imageMover/
+```
+
+### run project
+
+```bash
+python3 main.py
+```
